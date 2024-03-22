@@ -9,7 +9,6 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'cadastro', component: CadastroComponent },
   { path: 'operacao', component: OperacaoComponent },
-  // outras rotas aqui, se necessário
 ];
 
 export const AppRoutingModule: ModuleWithProviders<RouterModule> = RouterModule.forRoot(routes);
